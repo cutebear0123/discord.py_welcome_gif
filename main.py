@@ -36,5 +36,5 @@ async def on_member_join(member):
                 gif.append(image)
         gif[0].save('welcome.gif',save_all=True,optimize=False, append_images=gif[1:], loop=0)
         channel = discord.utils.get(member.guild.channels, name='welcome')
-        await channel.send(file=discord.File('./welcome.gif'))
-bot.run(token)
+        await channel.send(file=discord.File('welcome.gif'))
+bot.run('token')
