@@ -7,3 +7,4 @@
 ![Navigate to the bot tab on the left side of the screen.](https://discordpy.readthedocs.io/en/stable/_images/discord_bot_tab.png) ![Scroll down to the “Privileged Gateway Intents” section and enable the ones you want.](https://discordpy.readthedocs.io/en/stable/_images/discord_privileged_intents.png)
 ### 4. put your token to lest line in bot.run('token')
 ### 5. create a channel call welcome
+## if you went to change the welcome gif , you can change the image.gif file
