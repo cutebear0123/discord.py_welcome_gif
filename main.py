@@ -7,7 +7,7 @@ from PIL import Image
 
 intents = discord.Intents.default()
 intents.members = True
-bot = discord.Client()
+bot = discord.Client(intents=intents)
 
 @bot.event
 async def on_ready():
